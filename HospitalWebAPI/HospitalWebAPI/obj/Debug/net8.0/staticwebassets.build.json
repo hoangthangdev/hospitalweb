@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "yMc7bbGzj7zy1U9WpRk5KIsIO9+2t019zd5MS8F424A=",
+  "Source": "HospitalWebAPI",
+  "BasePath": "_content/HospitalWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
