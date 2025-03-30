@@ -1,0 +1,1 @@
+D:\hospitalweb\HospitalWebAPI\AppClient\obj\Debug\appclient.esproj.CoreCompileInputs.cache

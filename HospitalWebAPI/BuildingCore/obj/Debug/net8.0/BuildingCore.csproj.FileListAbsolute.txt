@@ -1,0 +1,13 @@
+D:\hospitalweb\HospitalWebAPI\BuildingCore\obj\Debug\net8.0\BuildingCore.csproj.AssemblyReference.cache
+D:\hospitalweb\HospitalWebAPI\BuildingCore\obj\Debug\net8.0\BuildingCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\hospitalweb\HospitalWebAPI\BuildingCore\obj\Debug\net8.0\BuildingCore.AssemblyInfoInputs.cache
+D:\hospitalweb\HospitalWebAPI\BuildingCore\obj\Debug\net8.0\BuildingCore.AssemblyInfo.cs
+D:\hospitalweb\HospitalWebAPI\BuildingCore\obj\Debug\net8.0\BuildingCore.csproj.CoreCompileInputs.cache
+D:\hospitalweb\HospitalWebAPI\BuildingCore\obj\Debug\net8.0\BuildingCore.sourcelink.json
+D:\hospitalweb\HospitalWebAPI\BuildingCore\bin\Debug\net8.0\BuildingCore.deps.json
+D:\hospitalweb\HospitalWebAPI\BuildingCore\bin\Debug\net8.0\BuildingCore.dll
+D:\hospitalweb\HospitalWebAPI\BuildingCore\bin\Debug\net8.0\BuildingCore.pdb
+D:\hospitalweb\HospitalWebAPI\BuildingCore\obj\Debug\net8.0\BuildingCore.dll
+D:\hospitalweb\HospitalWebAPI\BuildingCore\obj\Debug\net8.0\refint\BuildingCore.dll
+D:\hospitalweb\HospitalWebAPI\BuildingCore\obj\Debug\net8.0\BuildingCore.pdb
+D:\hospitalweb\HospitalWebAPI\BuildingCore\obj\Debug\net8.0\ref\BuildingCore.dll

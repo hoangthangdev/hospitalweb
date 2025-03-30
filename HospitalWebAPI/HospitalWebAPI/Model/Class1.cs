@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuildingCore.Common
+namespace r.Common
 {
     class Class1
     {

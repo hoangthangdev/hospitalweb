@@ -45,7 +45,15 @@ services:
       - "9300:9300"
     networks:
       - mynetwork
-
+  frontend:
+    build: ./frontend
+    container_name: react-app
+    ports:
+      - "3000:80"
+    depends_on:
+      - app
+    networks:
+      - mynetwork
 networks:
   mynetwork:
     driver: bridge

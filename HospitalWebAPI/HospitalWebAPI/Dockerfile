@@ -9,7 +9,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0-nanoserver-1809 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["./HospitalWebAPI.csproj", "HospitalWebAPI/"]
-RUN dotnet restore "./HospitalWebAPI/HospitalWebAPI.csproj"
+RUN dotnet restore "./HospitalWebAPI.csproj"
 COPY . .
 WORKDIR "/src/HospitalWebAPI"
 RUN dotnet build "./HospitalWebAPI.csproj" -c %BUILD_CONFIGURATION% -o /app/build
