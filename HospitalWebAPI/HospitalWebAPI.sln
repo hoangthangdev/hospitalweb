@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{02EA681E-C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingCore", "BuildingCore\BuildingCore.csproj", "{0764DC22-3FA0-43B4-BE66-53E26A5439FD}"
 EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "appclient", "AppClient\appclient.esproj", "{9D26AC1F-2319-4D50-8E72-79E4D11E9D5F}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81DDED9D-158B-E303-5F62-77A2896D2A5A}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "hospital.client", "..\hospital.client\hospital.client.esproj", "{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,12 +27,16 @@ Global
 		{0764DC22-3FA0-43B4-BE66-53E26A5439FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0764DC22-3FA0-43B4-BE66-53E26A5439FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0764DC22-3FA0-43B4-BE66-53E26A5439FD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D26AC1F-2319-4D50-8E72-79E4D11E9D5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D26AC1F-2319-4D50-8E72-79E4D11E9D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D26AC1F-2319-4D50-8E72-79E4D11E9D5F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{9D26AC1F-2319-4D50-8E72-79E4D11E9D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D26AC1F-2319-4D50-8E72-79E4D11E9D5F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D26AC1F-2319-4D50-8E72-79E4D11E9D5F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
