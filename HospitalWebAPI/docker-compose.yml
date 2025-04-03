@@ -48,17 +48,6 @@ services:
     networks:
       - mynetwork
 
-  frontend:
-    build:
-      context: ../
-      dockerfile: hospital.client/Dockerfile
-    container_name: react-app
-    ports:
-      - "3000:3000"
-    depends_on:
-      - app
-    networks:
-      - mynetwork
 volumes:
   sqlserver_data:
   redis_data:

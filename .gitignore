@@ -1,0 +1,30 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Build artifacts
+**/bin/
+**/obj/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Logs
+logs/
+*.log
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Environment variables
+.env
+.env.local
+
+# macOS
+.DS_Store

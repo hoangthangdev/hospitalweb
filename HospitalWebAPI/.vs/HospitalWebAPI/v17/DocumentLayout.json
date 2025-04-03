@@ -1,42 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\hospitalweb\\HospitalWebAPI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}|..\\hospital.client\\hospital.client.esproj|d:\\hospitalweb\\hospital.client\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}|..\\hospital.client\\hospital.client.esproj|d:\\hospitalweb\\hospital.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}|..\\hospital.client\\hospital.client.esproj|d:\\hospitalweb\\hospital.client\\src\\hooks\\usefethch.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}|..\\hospital.client\\hospital.client.esproj|d:\\hospitalweb\\hospital.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}|..\\hospital.client\\hospital.client.esproj|d:\\hospitalweb\\hospital.client\\public\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}|..\\hospital.client\\hospital.client.esproj|d:\\hospitalweb\\hospital.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}|..\\hospital.client\\hospital.client.esproj|d:\\hospitalweb\\hospital.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}|..\\hospital.client\\hospital.client.esproj|d:\\hospitalweb\\hospital.client\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}|..\\hospital.client\\hospital.client.esproj|d:\\hospitalweb\\hospital.client\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}|..\\hospital.client\\hospital.client.esproj|d:\\hospitalweb\\hospital.client\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -44,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -113,149 +78,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "useFethch.js",
-              "DocumentMoniker": "D:\\hospitalweb\\hospital.client\\src\\hooks\\useFethch.js",
-              "RelativeDocumentMoniker": "..\\hospital.client\\src\\hooks\\useFethch.js",
-              "ToolTip": "D:\\hospitalweb\\hospital.client\\src\\hooks\\useFethch.js",
-              "RelativeToolTip": "..\\hospital.client\\src\\hooks\\useFethch.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-02T07:57:08.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.jsx",
-              "DocumentMoniker": "D:\\hospitalweb\\hospital.client\\src\\App.jsx",
-              "RelativeDocumentMoniker": "..\\hospital.client\\src\\App.jsx",
-              "ToolTip": "D:\\hospitalweb\\hospital.client\\src\\App.jsx",
-              "RelativeToolTip": "..\\hospital.client\\src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-02T07:40:24.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "index.css",
-              "DocumentMoniker": "D:\\hospitalweb\\hospital.client\\src\\index.css",
-              "RelativeDocumentMoniker": "..\\hospital.client\\src\\index.css",
-              "ToolTip": "D:\\hospitalweb\\hospital.client\\src\\index.css",
-              "RelativeToolTip": "..\\hospital.client\\src\\index.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-02T07:40:12.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "main.jsx",
-              "DocumentMoniker": "D:\\hospitalweb\\hospital.client\\src\\main.jsx",
-              "RelativeDocumentMoniker": "..\\hospital.client\\src\\main.jsx",
-              "ToolTip": "D:\\hospitalweb\\hospital.client\\src\\main.jsx",
-              "RelativeToolTip": "..\\hospital.client\\src\\main.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-02T07:37:10.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "index.js",
-              "DocumentMoniker": "D:\\hospitalweb\\hospital.client\\src\\index.js",
-              "RelativeDocumentMoniker": "..\\hospital.client\\src\\index.js",
-              "ToolTip": "D:\\hospitalweb\\hospital.client\\src\\index.js",
-              "RelativeToolTip": "..\\hospital.client\\src\\index.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-02T07:37:09.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "index.html",
-              "DocumentMoniker": "D:\\hospitalweb\\hospital.client\\public\\index.html",
-              "RelativeDocumentMoniker": "..\\hospital.client\\public\\index.html",
-              "ToolTip": "D:\\hospitalweb\\hospital.client\\public\\index.html",
-              "RelativeToolTip": "..\\hospital.client\\public\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-04-02T07:36:07.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Dockerfile",
-              "RelativeDocumentMoniker": "HospitalWebAPI\\Dockerfile",
-              "ToolTip": "D:\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Dockerfile",
-              "RelativeToolTip": "HospitalWebAPI\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-02T07:22:36.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\hospitalweb\\hospital.client\\Dockerfile",
-              "RelativeDocumentMoniker": "..\\hospital.client\\Dockerfile",
-              "ToolTip": "D:\\hospitalweb\\hospital.client\\Dockerfile",
-              "RelativeToolTip": "..\\hospital.client\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-02T07:10:46.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "eslint.config.js",
-              "DocumentMoniker": "D:\\hospitalweb\\hospital.client\\eslint.config.js",
-              "RelativeDocumentMoniker": "..\\hospital.client\\eslint.config.js",
-              "ToolTip": "D:\\hospitalweb\\hospital.client\\eslint.config.js",
-              "RelativeToolTip": "..\\hospital.client\\eslint.config.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-02T07:09:00.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "package.json",
-              "DocumentMoniker": "D:\\hospitalweb\\hospital.client\\package.json",
-              "RelativeDocumentMoniker": "..\\hospital.client\\package.json",
-              "ToolTip": "D:\\hospitalweb\\hospital.client\\package.json",
-              "RelativeToolTip": "..\\hospital.client\\package.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-02T07:08:49.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "README.md",
-              "DocumentMoniker": "D:\\hospitalweb\\hospital.client\\README.md",
-              "RelativeDocumentMoniker": "..\\hospital.client\\README.md",
-              "ToolTip": "D:\\hospitalweb\\hospital.client\\README.md",
-              "RelativeToolTip": "..\\hospital.client\\README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-04-02T07:08:25.729Z",
-              "EditorCaption": ""
             }
           ]
         }
