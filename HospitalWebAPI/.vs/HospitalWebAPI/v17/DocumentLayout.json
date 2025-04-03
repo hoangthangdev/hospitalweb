@@ -1,7 +1,22 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\hospitalweb\\HospitalWebAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|d:\\hospitalweb\\hospitalwebapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}|..\\hospital.client\\hospital.client.esproj|d:\\hospitalweb\\hospital.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}|..\\hospital.client\\hospital.client.esproj|d:\\hospitalweb\\hospital.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +24,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,6 +93,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.jsx",
+              "DocumentMoniker": "D:\\hospitalweb\\hospital.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "..\\hospital.client\\src\\App.jsx",
+              "ToolTip": "D:\\hospitalweb\\hospital.client\\src\\App.jsx",
+              "RelativeToolTip": "..\\hospital.client\\src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-03T08:03:10.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "HospitalWebAPI\\Dockerfile",
+              "ToolTip": "D:\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Dockerfile",
+              "RelativeToolTip": "HospitalWebAPI\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-03T07:50:16.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "D:\\hospitalweb\\hospital.client\\vite.config.js",
+              "RelativeDocumentMoniker": "..\\hospital.client\\vite.config.js",
+              "ToolTip": "D:\\hospitalweb\\hospital.client\\vite.config.js",
+              "RelativeToolTip": "..\\hospital.client\\vite.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-03T07:45:27.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\hospitalweb\\HospitalWebAPI\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\hospitalweb\\HospitalWebAPI\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwC4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-04-03T03:51:55.792Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,8 +1,10 @@
 # Visual Studio
-.vs/
+**/.vs/
 *.suo
 *.user
 *.sln.docstates
+
+**/node_modules/
 
 # Build artifacts
 **/bin/
