@@ -8,6 +8,7 @@ services:
       - "8080:8080"
     depends_on:
       - sqlserver
+      - migrate
       - redis
       - elasticsearch
     environment:
@@ -27,6 +28,15 @@ services:
       ACCEPT_EULA: "Y"
     networks:
       - mynetwork
+  migrate:
+    build:
+      context: .
+      dockerfile: MigrationRunner/Dockerfile
+    depends_on:
+      - sqlserver
+    environment:
+      - DOTNET_ENVIRONMENT=Development
+
 
   redis:
     image: redis:latest

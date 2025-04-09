@@ -1,5 +1,9 @@
+using BuildingCore.Data;
+using BuildingCore.Data.Model;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,8 +24,16 @@ builder.Services.AddExceptionHandler<CustomExceptionHandler>();
 builder.Services.AddHealthChecks()
     .AddSqlServer(
         connectionString: builder.Configuration.GetConnectionString("Database"),
-        name: "Database",
-        failureStatus: HealthStatus.Unhealthy); 
+name: "Database",
+        failureStatus: HealthStatus.Unhealthy);
+
+builder.Services.AddDbContext<HospitalDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Database")));
+
+builder.Services.AddIdentity<User, IdentityRole>()
+    .AddEntityFrameworkStores<HospitalDbContext>()
+    .AddDefaultTokenProviders();
+
 
 var app = builder.Build();
 
