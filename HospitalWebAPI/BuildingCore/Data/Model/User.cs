@@ -10,20 +10,8 @@ using System.Threading.Tasks;
 
 namespace BuildingCore.Data.Model
 {
-    public class User : IdentityUser
+    public class User : IdentityUser<int>
     {
-        [Key]
-        public int Id { get; set; }
-        [Required]
-        public string UserName { get; set; }
-        [EmailAddress]
-        public string Email { get; set; } 
-        [Required]
-        public string PasswordHash { get; set; }
-        [Required]
-        [Phone]
-        [MaxLength(20)]
-        public string PhoneNumber { get; set; }
         [Required]
         [Column(TypeName = "Date")]
         public DateTime BirthDate { get; set; }

@@ -30,9 +30,6 @@ name: "Database",
 builder.Services.AddDbContext<HospitalDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Database")));
 
-builder.Services.AddIdentity<User, IdentityRole>()
-    .AddEntityFrameworkStores<HospitalDbContext>()
-    .AddDefaultTokenProviders();
 
 
 var app = builder.Build();

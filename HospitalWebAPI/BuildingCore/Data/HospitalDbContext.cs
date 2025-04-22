@@ -1,4 +1,5 @@
 ﻿using BuildingCore.Data.Model;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BuildingCore.Data
 {
-    public class HospitalDbContext : IdentityDbContext <User>, IApplicationDbContext
+    public class HospitalDbContext : IdentityDbContext <User, IdentityRole<int>, int>, IApplicationDbContext
     {
         public HospitalDbContext(DbContextOptions<HospitalDbContext> options)
         : base(options)
@@ -17,10 +18,8 @@ namespace BuildingCore.Data
         }
         public DbSet<CustomerModel> Customers { get; } = null!;
 
-        public DbSet<User> Users { get; }
+        public DbSet<Doctor> Doctors { get; } = null!;
 
-        public DbSet<Doctor> Doctors { get; }
-
-        public DbSet<Patient> Patients { get; }
+        public DbSet<Patient> Patients { get; } = null!;
     }
 }
