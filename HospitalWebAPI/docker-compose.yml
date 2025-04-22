@@ -11,7 +11,7 @@ services:
       - redis
       - elasticsearch
     environment:
-      - ConnectionStrings__DefaultConnection=Server=172.24.96.1,1433;Database=master;User Id=sa;Password=hospotal123@;Trust Server Certificate=True;
+      - ConnectionStrings__DefaultConnection=Server=172.27.240.1,1433;Database=master;User Id=sa;Password=hospotal123@;Trust Server Certificate=True;
       - Redis__Connection=redis:6379
       - ElasticSearch__Url=http://elasticsearch:9200
     networks:

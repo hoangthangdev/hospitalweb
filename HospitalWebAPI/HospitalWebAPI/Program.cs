@@ -1,6 +1,10 @@
+﻿using BuildingCore.Data;
+using BuildingCore.Extentions;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
+using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +15,8 @@ builder.Services.AddMediatR(config =>
     config.AddOpenBehavior(typeof(ValidationBehavior<,>));
     config.AddOpenBehavior(typeof(LoggingBehavior<,>));
 });
+builder.Services.AddDbContext<IApplicationDbContext, ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Database")));
 builder.Services.AddValidatorsFromAssembly(assembly);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -21,7 +27,9 @@ builder.Services.AddHealthChecks()
     .AddSqlServer(
         connectionString: builder.Configuration.GetConnectionString("Database"),
         name: "Database",
-        failureStatus: HealthStatus.Unhealthy); 
+        failureStatus: HealthStatus.Unhealthy);
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddTransient(s => s.GetRequiredService<IHttpContextAccessor>().HttpContext?.User ?? new ClaimsPrincipal());
 
 var app = builder.Build();
 
@@ -35,7 +43,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.MigrationBase();
 app.MapControllers();
 app.UseHealthChecks("/health",
     new HealthCheckOptions

@@ -1,22 +1,28 @@
 ﻿using BuildingCore.CQRS;
 using BuildingCore.Data;
 using BuildingCore.Data.Model;
-using HospitalWebAPI.Dtos;
-using System.Net;
+using System.Security.Claims;
 
 namespace HospitalWebAPI.Services.Customer.Commands.CreateCustomer;
 
-public class CreateCustomerHandler(IApplicationDbContext dbContext) : ICommandHandler<CreateCustomerCommand, CreateCustomerResult>
+public class CreateCustomerHandler : ICommandHandler<CreateCustomerCommand, CreateCustomerResult>
 {
+    private readonly ApplicationDbContext _context;
+    private readonly ClaimsPrincipal claimsPrincipal;
+    public CreateCustomerHandler(ApplicationDbContext context, ClaimsPrincipal claimsPrincipal)
+    {
+        _context = context;
+        this.claimsPrincipal = claimsPrincipal;
+    }
     public async Task<CreateCustomerResult> Handle(CreateCustomerCommand command, CancellationToken cancellationToken)
     {
         var newCust = new CustomerModel
         {
-            Id = command.Cust.Id
+            Name = command.Cust.Name
         };
-        dbContext.Customers.Add(newCust);
-        await dbContext.SaveChangesAsync(cancellationToken);
+        _context.Customers.Add(newCust);
+        await _context.SaveChangesAsync(cancellationToken);
 
-        return new CreateCustomerResult(newCust.Id);
+        return new CreateCustomerResult(newCust.Name);
     }
 }
