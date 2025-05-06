@@ -12,7 +12,7 @@ services:
       - redis
       - elasticsearch
     environment:
-      - ConnectionStrings__DefaultConnection=Server=172.24.96.1,1433;Database=master;User Id=sa;Password=hospotal123@;Trust Server Certificate=True;
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=master;User Id=sa;Password=hospotal123@;Trust Server Certificate=True;
       - Redis__Connection=redis:6379
       - ElasticSearch__Url=http://elasticsearch:9200
     networks:
@@ -22,7 +22,7 @@ services:
     image: mcr.microsoft.com/mssql/server:2022-latest
     container_name: sqlserver
     ports:
-      - "1433:1433"
+      - "11433:1433"
     environment:
       SA_PASSWORD: "hospotal123@"
       ACCEPT_EULA: "Y"
@@ -36,7 +36,8 @@ services:
       - sqlserver
     environment:
       - DOTNET_ENVIRONMENT=Development
-
+    networks:
+      - mynetwork
 
   redis:
     image: redis:latest

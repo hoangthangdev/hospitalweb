@@ -9,12 +9,20 @@ internal class Program
     private static void Main(string[] args)
     {
         var builder = new ConfigurationBuilder()
-    .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../HospitalWebAPI"))
+    .SetBasePath(Directory.GetCurrentDirectory())
     .AddJsonFile("appsettings.json");
 
         var configuration = builder.Build();
-        var connectionString = configuration.GetConnectionString("DefaultConnection");
-
+        var connectionString = configuration.GetConnectionString("Database");
+        if (string.IsNullOrEmpty(connectionString))
+        {
+            Console.WriteLine("Connection string not found in appsettings.json.");
+            return;
+        }
+        else
+        {
+            Console.WriteLine($"Connection string found: {connectionString}");
+        }
         var services = new ServiceCollection();
         services.AddDbContext<HospitalDbContext>(options =>
             options.UseSqlServer(connectionString));
