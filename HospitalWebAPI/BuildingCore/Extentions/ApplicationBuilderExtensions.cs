@@ -1,5 +1,7 @@
 ﻿using BuildingCore.Data;
+using BuildingCore.Data.Identity;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -11,7 +13,7 @@ namespace BuildingCore.Extentions
         {
             using var scope = app.ApplicationServices.CreateScope();
             using var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-            //using var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+            using var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
 
             // Ensure the correct namespace is used for migration-related methods
             if (context.Database.GetPendingMigrations().Any())
