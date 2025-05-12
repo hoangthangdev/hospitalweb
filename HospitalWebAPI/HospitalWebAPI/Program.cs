@@ -1,4 +1,5 @@
 ﻿using BuildingCore.Data;
+using BuildingCore.Data.Entitys;
 using BuildingCore.Data.Identity;
 using BuildingCore.Extentions;
 using BuildingCore.Interfaces;
@@ -50,13 +51,15 @@ internal class Program
         builder.Services.AddSwaggerGen();
         builder.Services.AddExceptionHandler<CustomExceptionHandler>();
         builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
+        string? connectionString = builder.Configuration.GetConnectionString("Database");
         builder.Services.AddHealthChecks()
             .AddSqlServer(
-                connectionString: builder.Configuration.GetConnectionString("Database"),
+                connectionString: connectionString,
                 name: "Database",
                 failureStatus: HealthStatus.Unhealthy);
         builder.Services.AddHttpContextAccessor();
         builder.Services.AddTransient(s => s.GetRequiredService<IHttpContextAccessor>().HttpContext?.User ?? new ClaimsPrincipal());
+        builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
         builder.Services.AddTransient<IEmailSender<ApplicationUser>, SmtpEmailSender>();
 
         var app = builder.Build();

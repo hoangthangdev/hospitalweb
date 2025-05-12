@@ -1,26 +1,33 @@
-﻿using BuildingCore.Data.Identity;
-using Microsoft.AspNetCore.Identity;
+﻿using BuildingCore.Data.Entitys;
+using BuildingCore.Data.Identity;
+using BuildingCore.Interfaces;
+using MailKit.Net.Smtp;
+using Microsoft.Extensions.Options;
+using MimeKit;
 
 namespace BuildingCore.Extentions
 {
     public class SmtpEmailSender : IEmailSender<ApplicationUser>
     {
-        public Task SendEmailAsync(ApplicationUser user, string email, string subject, string htmlMessage)
+        private readonly SmtpSettings _smtpSettings;
+        public SmtpEmailSender(IOptions<SmtpSettings> smtpSettings)
         {
-            // Implement SMTP sending here
-            return Task.CompletedTask;
+            _smtpSettings = smtpSettings.Value;
         }
-
-        public Task SendConfirmationLinkAsync(ApplicationUser user, string email, string confirmationLink) =>
-            SendEmailAsync(user, email, "Confirm your account", confirmationLink);
-
-        public Task SendPasswordResetLinkAsync(ApplicationUser user, string email, string resetLink) =>
-            SendEmailAsync(user, email, "Reset your password", resetLink);
-
-        public Task SendPasswordResetCodeAsync(ApplicationUser user, string email, string resetCode)
+        public async Task SendEmailAsync(ApplicationUser user, string subject, string htmlMessage)
         {
-            throw new NotImplementedException();
+            var message = new MimeMessage();
+            message.From.Add(new MailboxAddress(_smtpSettings.SenderName, _smtpSettings.SenderEmail));
+
+            message.To.Add(MailboxAddress.Parse(user.Email));
+            message.Subject = subject;
+            message.Body = new TextPart(MimeKit.Text.TextFormat.Html) { Text = htmlMessage };
+
+            using var smtp = new SmtpClient();
+            await smtp.ConnectAsync(_smtpSettings.Host, _smtpSettings.Port, MailKit.Security.SecureSocketOptions.StartTls);
+            await smtp.AuthenticateAsync(_smtpSettings.UserName, _smtpSettings.Password);
+            await smtp.SendAsync(message);
+            await smtp.DisconnectAsync(true);
         }
     }
-
 }
