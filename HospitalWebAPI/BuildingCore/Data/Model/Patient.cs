@@ -11,6 +11,7 @@ public class Patient
     public string FullName { get; set; }
 
     public int UserId { get; set; }
+
     [ForeignKey("UserId")]
     public User User { get; set; }
 }

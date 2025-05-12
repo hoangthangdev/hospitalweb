@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BuildingCore.Data.Model
 {
@@ -12,5 +13,8 @@ namespace BuildingCore.Data.Model
         [MaxLength(100)]
         [Required]
         public string PositionTitle { get; set; }
+        public int UserId { get; set; }
+        [ForeignKey("UserId")]
+        public User User { get; set; }
     }
 }
