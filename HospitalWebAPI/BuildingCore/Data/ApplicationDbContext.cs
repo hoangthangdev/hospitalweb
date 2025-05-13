@@ -34,7 +34,7 @@ namespace BuildingCore.Data
 
         public async Task<int> SaveChangesAsync(CancellationToken cancellationToken)
         {
-            BeforSaveChanges();
+            BeforeSaveChanges();
             return await base.SaveChangesAsync(cancellationToken);
         }
 
@@ -93,7 +93,7 @@ namespace BuildingCore.Data
             }
         }
 
-        private void BeforSaveChanges()
+        private void BeforeSaveChanges()
         {
             foreach (var entry in ChangeTracker.Entries())
             {

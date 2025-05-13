@@ -20,7 +20,6 @@ namespace BuildingCore.Extentions
             {
                 context.Database.Migrate();
             }
-
             return app;
         }
     }

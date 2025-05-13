@@ -3,96 +3,104 @@
   "WorkspaceRootPath": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\extentions\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\extentions\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\extentions\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\extentions\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\data\\entitys\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\data\\entitys\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\services\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\services\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\auth\\commands\\handlers\\registerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\auth\\commands\\handlers\\registerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\auth\\commands\\handlers\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\auth\\commands\\handlers\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\auth\\commands\\validators\\registervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\auth\\commands\\validators\\registervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\auth\\commands\\requests\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\auth\\commands\\requests\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\auth\\commands\\responses\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\auth\\commands\\responses\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\auth\\queries\\handlers\\confirmemailhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\auth\\queries\\handlers\\confirmemailhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\extentions\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\extentions\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\auth\\commands\\responses\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\auth\\commands\\responses\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\auth\\commands\\validators\\loginvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\auth\\commands\\validators\\loginvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\interfaces\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\interfaces\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\customer\\queries\\getcustomerbyid\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\customer\\queries\\getcustomerbyid\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\validatorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\validatorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\customer\\queries\\getcustomerbyid\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\customer\\queries\\getcustomerbyid\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\customer\\commands\\createcustomer\\createcustomerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\customer\\commands\\createcustomer\\createcustomerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\extentions\\modelbuilderextensions.conventions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\extentions\\modelbuilderextensions.conventions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\customer\\queries\\getcustomerbyid\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\customer\\queries\\getcustomerbyid\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\extentions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\extentions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\customer\\commands\\createcustomer\\createcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\customer\\commands\\createcustomer\\createcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\customer\\queries\\getcustomerbyid\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\customer\\queries\\getcustomerbyid\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\auth\\commands\\handlers\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\auth\\commands\\handlers\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\cqrs\\iqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\cqrs\\iqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\data\\entitys\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\data\\entitys\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\data\\model\\customer1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\data\\model\\customer1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\extentions\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\extentions\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\common\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\common\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\common\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\common\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\interfaces\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\interfaces\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\exceptions\\handler\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\exceptions\\handler\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\data\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\data\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,24 +115,52 @@
       "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\exceptions\\internalserverexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\exceptions\\handler\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\exceptions\\handler\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\auth\\commands\\requests\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\auth\\commands\\requests\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\customer\\commands\\createcustomer\\createcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\customer\\commands\\createcustomer\\createcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\validatorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\validatorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\cqrs\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\cqrs\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\cqrs\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\cqrs\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\auth\\commands\\validators\\loginvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\auth\\commands\\validators\\loginvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\hospitalwebapi\\services\\auth\\commands\\requests\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76E0A4D-6FAE-49E5-A9A8-A071D2F36CAE}|HospitalWebAPI\\HospitalWebAPI.csproj|solutionrelative:hospitalwebapi\\services\\auth\\commands\\requests\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\data\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\data\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\data\\migrations\\20250422074902_initapp-v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\data\\migrations\\20250422074902_initapp-v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|d:\\new folder\\hospitalweb\\hospitalwebapi\\buildingcore\\data\\migrations\\20250422074420_initapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0764DC22-3FA0-43B4-BE66-53E26A5439FD}|BuildingCore\\BuildingCore.csproj|solutionrelative:buildingcore\\data\\migrations\\20250422074420_initapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -134,7 +170,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -189,72 +225,372 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SmtpSettings.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\Entitys\\SmtpSettings.cs",
-              "RelativeDocumentMoniker": "BuildingCore\\Data\\Entitys\\SmtpSettings.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\Entitys\\SmtpSettings.cs",
-              "RelativeToolTip": "BuildingCore\\Data\\Entitys\\SmtpSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ConfirmEmailHandler.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Queries\\Handlers\\ConfirmEmailHandler.cs",
+              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Auth\\Queries\\Handlers\\ConfirmEmailHandler.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Queries\\Handlers\\ConfirmEmailHandler.cs",
+              "RelativeToolTip": "HospitalWebAPI\\Services\\Auth\\Queries\\Handlers\\ConfirmEmailHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T04:01:41.589Z",
+              "WhenOpened": "2025-05-13T09:39:43.883Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BuildingCore\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BuildingCore\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADgv28AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T08:16:52.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginHandler.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Handlers\\LoginHandler.cs",
+              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Auth\\Commands\\Handlers\\LoginHandler.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Handlers\\LoginHandler.cs",
+              "RelativeToolTip": "HospitalWebAPI\\Services\\Auth\\Commands\\Handlers\\LoginHandler.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:57:39.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterHandler.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Handlers\\RegisterHandler.cs",
+              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Auth\\Commands\\Handlers\\RegisterHandler.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Handlers\\RegisterHandler.cs*",
+              "RelativeToolTip": "HospitalWebAPI\\Services\\Auth\\Commands\\Handlers\\RegisterHandler.cs*",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T07:51:53.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoggingBehavior.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Common\\LoggingBehavior.cs",
+              "RelativeDocumentMoniker": "BuildingCore\\Common\\LoggingBehavior.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Common\\LoggingBehavior.cs",
+              "RelativeToolTip": "BuildingCore\\Common\\LoggingBehavior.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T02:59:30.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "HospitalWebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "HospitalWebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvx0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:34:28.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateCustomerCommand.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Customer\\Commands\\CreateCustomer\\CreateCustomerCommand.cs",
+              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Customer\\Commands\\CreateCustomer\\CreateCustomerCommand.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Customer\\Commands\\CreateCustomer\\CreateCustomerCommand.cs",
+              "RelativeToolTip": "HospitalWebAPI\\Services\\Customer\\Commands\\CreateCustomer\\CreateCustomerCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:24:24.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SmtpEmailSender.cs",
               "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Extentions\\SmtpEmailSender.cs",
               "RelativeDocumentMoniker": "BuildingCore\\Extentions\\SmtpEmailSender.cs",
               "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Extentions\\SmtpEmailSender.cs",
               "RelativeToolTip": "BuildingCore\\Extentions\\SmtpEmailSender.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAvwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T10:00:44.404Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "RegisterResponse.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Responses\\RegisterResponse.cs",
+              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Auth\\Commands\\Responses\\RegisterResponse.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Responses\\RegisterResponse.cs*",
+              "RelativeToolTip": "HospitalWebAPI\\Services\\Auth\\Commands\\Responses\\RegisterResponse.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T04:23:13.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GlobalUsing.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\GlobalUsing.cs",
+              "RelativeDocumentMoniker": "HospitalWebAPI\\GlobalUsing.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\GlobalUsing.cs",
+              "RelativeToolTip": "HospitalWebAPI\\GlobalUsing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:48:34.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Responses\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Auth\\Commands\\Responses\\LoginResponse.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Responses\\LoginResponse.cs",
+              "RelativeToolTip": "HospitalWebAPI\\Services\\Auth\\Commands\\Responses\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:54:57.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateCustomerHandler.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Customer\\Commands\\CreateCustomer\\CreateCustomerHandler.cs",
+              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Customer\\Commands\\CreateCustomer\\CreateCustomerHandler.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Customer\\Commands\\CreateCustomer\\CreateCustomerHandler.cs",
+              "RelativeToolTip": "HospitalWebAPI\\Services\\Customer\\Commands\\CreateCustomer\\CreateCustomerHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:25:53.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Query.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Customer\\Queries\\GetCustomerById\\Query.cs",
+              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Customer\\Queries\\GetCustomerById\\Query.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Customer\\Queries\\GetCustomerById\\Query.cs",
+              "RelativeToolTip": "HospitalWebAPI\\Services\\Customer\\Queries\\GetCustomerById\\Query.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:42:53.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "HospitalWebAPI\\Program.cs",
               "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Program.cs",
               "RelativeToolTip": "HospitalWebAPI\\Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAawD4AAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAlwEkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T09:01:45.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
+              "Title": "ApplicationBuilderExtensions.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Extentions\\ApplicationBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "BuildingCore\\Extentions\\ApplicationBuilderExtensions.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Extentions\\ApplicationBuilderExtensions.cs",
+              "RelativeToolTip": "BuildingCore\\Extentions\\ApplicationBuilderExtensions.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:09:45.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IQueryHandler.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\CQRS\\IQueryHandler.cs",
+              "RelativeDocumentMoniker": "BuildingCore\\CQRS\\IQueryHandler.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\CQRS\\IQueryHandler.cs",
+              "RelativeToolTip": "BuildingCore\\CQRS\\IQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:41:27.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Handler.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Customer\\Queries\\GetCustomerById\\Handler.cs",
+              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Customer\\Queries\\GetCustomerById\\Handler.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Customer\\Queries\\GetCustomerById\\Handler.cs",
+              "RelativeToolTip": "HospitalWebAPI\\Services\\Customer\\Queries\\GetCustomerById\\Handler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:25:39.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Customer1.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\Model\\Customer1.cs",
+              "RelativeDocumentMoniker": "BuildingCore\\Data\\Model\\Customer1.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\Model\\Customer1.cs",
+              "RelativeToolTip": "BuildingCore\\Data\\Model\\Customer1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:26:10.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\Entitys\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "BuildingCore\\Data\\Entitys\\SmtpSettings.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\Entitys\\SmtpSettings.cs",
+              "RelativeToolTip": "BuildingCore\\Data\\Entitys\\SmtpSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T04:01:41.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "HospitalWebAPI\\appsettings.json",
               "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\appsettings.json",
               "RelativeToolTip": "HospitalWebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvxYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-08T02:26:21.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegisterHandler.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Handlers\\RegisterHandler.cs",
-              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Auth\\Commands\\Handlers\\RegisterHandler.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Handlers\\RegisterHandler.cs",
-              "RelativeToolTip": "HospitalWebAPI\\Services\\Auth\\Commands\\Handlers\\RegisterHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBkAAAANAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Common\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "BuildingCore\\Common\\ValidationBehavior.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Common\\ValidationBehavior.cs",
+              "RelativeToolTip": "BuildingCore\\Common\\ValidationBehavior.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T04:29:07.692Z"
+              "WhenOpened": "2025-05-13T03:40:13.916Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-05-13T08:08:19.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CustomExceptionHandler.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Exceptions\\Handler\\CustomExceptionHandler.cs",
+              "RelativeDocumentMoniker": "BuildingCore\\Exceptions\\Handler\\CustomExceptionHandler.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Exceptions\\Handler\\CustomExceptionHandler.cs",
+              "RelativeToolTip": "BuildingCore\\Exceptions\\Handler\\CustomExceptionHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwB0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T04:05:22.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Interfaces\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "BuildingCore\\Interfaces\\IEmailSender.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Interfaces\\IEmailSender.cs",
+              "RelativeToolTip": "BuildingCore\\Interfaces\\IEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T07:51:48.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "BuildingCore\\Exceptions\\BadRequestException.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Exceptions\\BadRequestException.cs",
+              "RelativeToolTip": "BuildingCore\\Exceptions\\BadRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T04:19:04.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\IApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BuildingCore\\Data\\IApplicationDbContext.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\IApplicationDbContext.cs",
+              "RelativeToolTip": "BuildingCore\\Data\\IApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:53:51.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ValidatorBase.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\ValidatorBase.cs",
+              "RelativeDocumentMoniker": "BuildingCore\\ValidatorBase.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\ValidatorBase.cs",
+              "RelativeToolTip": "BuildingCore\\ValidatorBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:23:46.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "HospitalWebAPI\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "HospitalWebAPI\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:03:57.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "RegisterCommand.cs",
               "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Requests\\RegisterCommand.cs",
               "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Auth\\Commands\\Requests\\RegisterCommand.cs",
@@ -266,216 +602,103 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RegisterResponse.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Responses\\RegisterResponse.cs",
-              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Auth\\Commands\\Responses\\RegisterResponse.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Responses\\RegisterResponse.cs",
-              "RelativeToolTip": "HospitalWebAPI\\Services\\Auth\\Commands\\Responses\\RegisterResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T04:23:13.398Z"
+              "DocumentIndex": 31,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-13T03:05:34.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RegisterValidator.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Validators\\RegisterValidator.cs",
-              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Auth\\Commands\\Validators\\RegisterValidator.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Validators\\RegisterValidator.cs",
-              "RelativeToolTip": "HospitalWebAPI\\Services\\Auth\\Commands\\Validators\\RegisterValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T04:24:29.828Z"
+              "DocumentIndex": 32,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "HospitalWebAPI\\Dockerfile",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Dockerfile",
+              "RelativeToolTip": "HospitalWebAPI\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-13T03:05:13.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationBuilderExtensions.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Extentions\\ApplicationBuilderExtensions.cs",
-              "RelativeDocumentMoniker": "BuildingCore\\Extentions\\ApplicationBuilderExtensions.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Extentions\\ApplicationBuilderExtensions.cs",
-              "RelativeToolTip": "BuildingCore\\Extentions\\ApplicationBuilderExtensions.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBIAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 33,
+              "Title": "ICommandHandler.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\CQRS\\ICommandHandler.cs",
+              "RelativeDocumentMoniker": "BuildingCore\\CQRS\\ICommandHandler.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\CQRS\\ICommandHandler.cs",
+              "RelativeToolTip": "BuildingCore\\CQRS\\ICommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:09:45.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "WhenOpened": "2025-05-13T02:59:26.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "HospitalWebAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "HospitalWebAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
+              "DocumentIndex": 34,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\CQRS\\ICommand.cs",
+              "RelativeDocumentMoniker": "BuildingCore\\CQRS\\ICommand.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\CQRS\\ICommand.cs",
+              "RelativeToolTip": "BuildingCore\\CQRS\\ICommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:34:28.802Z"
+              "WhenOpened": "2025-05-13T02:59:25.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "JwtTokenGenerator.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Services\\JwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "BuildingCore\\Services\\JwtTokenGenerator.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Services\\JwtTokenGenerator.cs",
-              "RelativeToolTip": "BuildingCore\\Services\\JwtTokenGenerator.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwCIAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 35,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Dtos\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "HospitalWebAPI\\Dtos\\CustomerDto.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Dtos\\CustomerDto.cs",
+              "RelativeToolTip": "HospitalWebAPI\\Dtos\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T07:39:27.201Z"
+              "WhenOpened": "2025-05-13T02:04:43.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 36,
               "Title": "LoginValidator.cs",
               "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Validators\\LoginValidator.cs",
               "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Auth\\Commands\\Validators\\LoginValidator.cs",
               "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Validators\\LoginValidator.cs",
               "RelativeToolTip": "HospitalWebAPI\\Services\\Auth\\Commands\\Validators\\LoginValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T03:22:02.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LoginResponse.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Responses\\LoginResponse.cs",
-              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Auth\\Commands\\Responses\\LoginResponse.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Responses\\LoginResponse.cs",
-              "RelativeToolTip": "HospitalWebAPI\\Services\\Auth\\Commands\\Responses\\LoginResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "DocumentIndex": 37,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Requests\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Auth\\Commands\\Requests\\LoginCommand.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Requests\\LoginCommand.cs",
+              "RelativeToolTip": "HospitalWebAPI\\Services\\Auth\\Commands\\Requests\\LoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T02:56:13.444Z"
+              "WhenOpened": "2025-05-12T07:37:22.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginHandler.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Handlers\\LoginHandler.cs",
-              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Auth\\Commands\\Handlers\\LoginHandler.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Auth\\Commands\\Handlers\\LoginHandler.cs",
-              "RelativeToolTip": "HospitalWebAPI\\Services\\Auth\\Commands\\Handlers\\LoginHandler.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAIBJwBEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T02:57:39.836Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "HospitalWebAPI\\Controllers\\CustomerController.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "HospitalWebAPI\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBUAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:03:57.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IJwtTokenGenerator.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Interfaces\\IJwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "BuildingCore\\Interfaces\\IJwtTokenGenerator.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Interfaces\\IJwtTokenGenerator.cs",
-              "RelativeToolTip": "BuildingCore\\Interfaces\\IJwtTokenGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T07:38:42.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ValidatorBase.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\ValidatorBase.cs",
-              "RelativeDocumentMoniker": "BuildingCore\\ValidatorBase.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\ValidatorBase.cs",
-              "RelativeToolTip": "BuildingCore\\ValidatorBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:23:46.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Query.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Customer\\Queries\\GetCustomerById\\Query.cs",
-              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Customer\\Queries\\GetCustomerById\\Query.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Customer\\Queries\\GetCustomerById\\Query.cs",
-              "RelativeToolTip": "HospitalWebAPI\\Services\\Customer\\Queries\\GetCustomerById\\Query.cs",
+              "DocumentIndex": 38,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "BuildingCore\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "BuildingCore\\Interfaces\\IUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T02:26:07.873Z"
+              "WhenOpened": "2025-05-12T07:26:31.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Handler.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Customer\\Queries\\GetCustomerById\\Handler.cs",
-              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Customer\\Queries\\GetCustomerById\\Handler.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Customer\\Queries\\GetCustomerById\\Handler.cs",
-              "RelativeToolTip": "HospitalWebAPI\\Services\\Customer\\Queries\\GetCustomerById\\Handler.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T02:25:39.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CreateCustomerHandler.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Customer\\Commands\\CreateCustomer\\CreateCustomerHandler.cs",
-              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Customer\\Commands\\CreateCustomer\\CreateCustomerHandler.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Customer\\Commands\\CreateCustomer\\CreateCustomerHandler.cs",
-              "RelativeToolTip": "HospitalWebAPI\\Services\\Customer\\Commands\\CreateCustomer\\CreateCustomerHandler.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAcAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T02:25:53.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "BuildingCore\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "BuildingCore\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAWwDwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T08:16:52.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ModelBuilderExtensions.Conventions.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Extentions\\ModelBuilderExtensions.Conventions.cs",
-              "RelativeDocumentMoniker": "BuildingCore\\Extentions\\ModelBuilderExtensions.Conventions.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Extentions\\ModelBuilderExtensions.Conventions.cs",
-              "RelativeToolTip": "BuildingCore\\Extentions\\ModelBuilderExtensions.Conventions.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:09:50.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ClaimsPrincipalExtensions.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Extentions\\ClaimsPrincipalExtensions.cs",
-              "RelativeDocumentMoniker": "BuildingCore\\Extentions\\ClaimsPrincipalExtensions.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Extentions\\ClaimsPrincipalExtensions.cs",
-              "RelativeToolTip": "BuildingCore\\Extentions\\ClaimsPrincipalExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:10:31.739Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "BuildingCore\\Exceptions\\NotFoundException.cs",
@@ -487,7 +710,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 39,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\Identity\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "BuildingCore\\Data\\Identity\\ApplicationUser.cs",
+              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\Identity\\ApplicationUser.cs",
+              "RelativeToolTip": "BuildingCore\\Data\\Identity\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T08:16:46.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "InternalServerException.cs",
               "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Exceptions\\InternalServerException.cs",
               "RelativeDocumentMoniker": "BuildingCore\\Exceptions\\InternalServerException.cs",
@@ -496,78 +731,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T03:07:56.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "BadRequestException.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Exceptions\\BadRequestException.cs",
-              "RelativeDocumentMoniker": "BuildingCore\\Exceptions\\BadRequestException.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Exceptions\\BadRequestException.cs",
-              "RelativeToolTip": "BuildingCore\\Exceptions\\BadRequestException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:07:54.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CustomExceptionHandler.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Exceptions\\Handler\\CustomExceptionHandler.cs",
-              "RelativeDocumentMoniker": "BuildingCore\\Exceptions\\Handler\\CustomExceptionHandler.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Exceptions\\Handler\\CustomExceptionHandler.cs",
-              "RelativeToolTip": "BuildingCore\\Exceptions\\Handler\\CustomExceptionHandler.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:07:51.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CreateCustomerCommand.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Customer\\Commands\\CreateCustomer\\CreateCustomerCommand.cs",
-              "RelativeDocumentMoniker": "HospitalWebAPI\\Services\\Customer\\Commands\\CreateCustomer\\CreateCustomerCommand.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\HospitalWebAPI\\Services\\Customer\\Commands\\CreateCustomer\\CreateCustomerCommand.cs",
-              "RelativeToolTip": "HospitalWebAPI\\Services\\Customer\\Commands\\CreateCustomer\\CreateCustomerCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T02:24:24.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "20250422074902_initApp-v2.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\Migrations\\20250422074902_initApp-v2.cs",
-              "RelativeDocumentMoniker": "BuildingCore\\Data\\Migrations\\20250422074902_initApp-v2.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\Migrations\\20250422074902_initApp-v2.cs",
-              "RelativeToolTip": "BuildingCore\\Data\\Migrations\\20250422074902_initApp-v2.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T09:01:28.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "20250422074420_initApp.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\Migrations\\20250422074420_initApp.cs",
-              "RelativeDocumentMoniker": "BuildingCore\\Data\\Migrations\\20250422074420_initApp.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\Migrations\\20250422074420_initApp.cs",
-              "RelativeToolTip": "BuildingCore\\Data\\Migrations\\20250422074420_initApp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T09:01:23.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\Identity\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "BuildingCore\\Data\\Identity\\ApplicationUser.cs",
-              "ToolTip": "D:\\New folder\\hospitalweb\\HospitalWebAPI\\BuildingCore\\Data\\Identity\\ApplicationUser.cs",
-              "RelativeToolTip": "BuildingCore\\Data\\Identity\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T08:16:46.753Z"
             }
           ]
         }

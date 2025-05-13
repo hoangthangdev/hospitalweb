@@ -1,5 +1,5 @@
 ﻿using HospitalWebAPI.Services.Auth.Commands.Requests;
-using Microsoft.AspNetCore.Mvc;
+using HospitalWebAPI.Services.Auth.Queries.Handlers;
 
 namespace HospitalWebAPI.Controllers
 {
@@ -22,6 +22,12 @@ namespace HospitalWebAPI.Controllers
         public async Task<IActionResult> Register([FromBody] RegisterCommand command)
         {
             var result = await _mediator.Send(command);
+            return Ok(result);
+        }
+        [HttpGet("confirmEmail")]
+        public async Task<IActionResult> confirmEmail([FromQuery] string userID, [FromQuery] string token)
+        {
+            var result = await _mediator.Send(new ConfirmEmailQuery(userID, token));
             return Ok(result);
         }
     }
