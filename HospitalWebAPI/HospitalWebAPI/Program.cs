@@ -1,8 +1,6 @@
 using BuildingCore.Data;
-using BuildingCore.Data.Model;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
@@ -29,7 +27,7 @@ name: "Database",
 
 builder.Services.AddDbContext<HospitalDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Database")));
-
+builder.Services.AddScoped<IApplicationDbContext, HospitalDbContext>();
 
 
 var app = builder.Build();
