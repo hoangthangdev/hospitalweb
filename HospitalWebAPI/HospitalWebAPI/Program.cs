@@ -32,6 +32,13 @@ builder.Services.AddScoped<IApplicationDbContext, HospitalDbContext>();
 
 var app = builder.Build();
 
+// migrate the database
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<HospitalDbContext>();
+    dbContext.Database.Migrate();
+}
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

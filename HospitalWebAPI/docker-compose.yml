@@ -8,11 +8,10 @@ services:
       - "8080:8080"
     depends_on:
       - sqlserver
-      - migrate
       - redis
       - elasticsearch
     environment:
-      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=master;User Id=sa;Password=hospotal123@;Trust Server Certificate=True;
+      - ConnectionStrings__Database=Server=sqlserver;Database=master;User Id=sa;Password=hospotal123@;Trust Server Certificate=True;
       - Redis__Connection=redis:6379
       - ElasticSearch__Url=http://elasticsearch:9200
     networks:
@@ -26,16 +25,6 @@ services:
     environment:
       SA_PASSWORD: "hospotal123@"
       ACCEPT_EULA: "Y"
-    networks:
-      - mynetwork
-  migrate:
-    build:
-      context: .
-      dockerfile: MigrationRunner/Dockerfile
-    depends_on:
-      - sqlserver
-    environment:
-      - DOTNET_ENVIRONMENT=Development
     networks:
       - mynetwork
 
@@ -56,6 +45,17 @@ services:
     ports:
       - "9200:9200"
       - "9300:9300"
+    networks:
+      - mynetwork
+  client:
+    build:
+      context: ../hospital.client
+      dockerfile: ../hospital.client/Dockerfile
+    container_name: reactjs-client
+    ports:
+      - "8081:5173"
+    depends_on:
+      - app
     networks:
       - mynetwork
 
