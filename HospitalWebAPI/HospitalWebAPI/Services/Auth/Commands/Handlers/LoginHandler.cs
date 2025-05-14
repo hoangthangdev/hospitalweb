@@ -1,9 +1,7 @@
 ﻿using BuildingCore.CQRS;
-using BuildingCore.Data.Identity;
 using BuildingCore.Interfaces;
 using HospitalWebAPI.Services.Auth.Commands.Requests;
 using HospitalWebAPI.Services.Auth.Commands.Responses;
-using Microsoft.AspNetCore.Identity;
 
 namespace HospitalWebAPI.Services.Auth.Commands.Handlers
 {
@@ -30,10 +28,14 @@ namespace HospitalWebAPI.Services.Auth.Commands.Handlers
             if (result.Result.Succeeded)
             {
                 var token = _jwtTokenGenerator.GenerateToken(user);
+                var refreshToken = _jwtTokenGenerator.GenerateRefreshToken();
+
+                await _userManager.SetAuthenticationTokenAsync(user, "app", "RefreshToken", refreshToken);
                 return new LoginResponse
                 {
                     Email = user.Email,
                     Token = token,
+                    RefreshToken = refreshToken
                 };
             }
             return null;

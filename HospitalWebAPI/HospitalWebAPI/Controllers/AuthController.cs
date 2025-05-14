@@ -30,5 +30,11 @@ namespace HospitalWebAPI.Controllers
             var result = await _mediator.Send(new ConfirmEmailQuery(userID, token));
             return Ok(result);
         }
+        [HttpPost("refresh-token")]
+        public async Task<IActionResult> RefreshToken([FromBody] RefreshTokenCommand command)
+        {
+            var result = await _mediator.Send(command);
+            return Ok(result);
+        }
     }
 }

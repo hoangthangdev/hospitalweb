@@ -1,12 +1,10 @@
 ﻿using BuildingCore.Data;
 using BuildingCore.Data.Entitys;
-using BuildingCore.Data.Identity;
 using BuildingCore.Extentions;
 using BuildingCore.Interfaces;
 using BuildingCore.Services;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.IdentityModel.Tokens;
@@ -69,7 +67,7 @@ internal class Program
             app.UseSwagger();
             app.UseSwaggerUI();
         }
-
+        app.UseExceptionHandler(_ => { });
         app.UseHttpsRedirection();
         app.MapIdentityApi<ApplicationUser>();
         app.UseAuthorization();
