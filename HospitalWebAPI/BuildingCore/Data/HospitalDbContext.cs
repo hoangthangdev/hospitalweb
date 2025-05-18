@@ -18,8 +18,8 @@ namespace BuildingCore.Data
         }
         public DbSet<CustomerModel> Customers { get; } = null!;
 
-        public DbSet<Doctor> Doctors { get; } = null!;
+        public DbSet<DoctorInfo> Doctors { get; } = null!;
 
-        public DbSet<Patient> Patients { get; } = null!;
+        public DbSet<PatientInfo> Patients { get; } = null!;
     }
 }

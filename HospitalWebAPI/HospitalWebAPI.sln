@@ -13,8 +13,6 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "hospital.client", "..\hospital.client\hospital.client.esproj", "{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MigrationRunner", "MigrationRunner\MigrationRunner.csproj", "{2FF7B75C-1A7C-402A-B9C3-30F04BC6114E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,10 +37,6 @@ Global
 		{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E53D1A03-797E-79AF-8AA6-655B8EAB9CD8}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{2FF7B75C-1A7C-402A-B9C3-30F04BC6114E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2FF7B75C-1A7C-402A-B9C3-30F04BC6114E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2FF7B75C-1A7C-402A-B9C3-30F04BC6114E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2FF7B75C-1A7C-402A-B9C3-30F04BC6114E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

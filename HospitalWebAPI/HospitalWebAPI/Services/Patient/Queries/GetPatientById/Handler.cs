@@ -12,15 +12,16 @@ namespace HospitalWebAPI.Services.Patient.Queries.GetPatientById
     {
         public async Task<GetPatientByIdResult> Handle(GetPatientByIdQuery query, CancellationToken cancellationToken)
         {
-            // Todo: Implement the logic to get the orders
-            var patientResult = await dbContext.Patients.Where(item => query.Request.Id == item.Id).FirstOrDefaultAsync(cancellationToken);
-            if(patientResult == null)
-            {
-                throw new KeyNotFoundException();
-            }
+            var patientResult = await dbContext.Patients
+                .Where(item => query.Request.Id == item.Id)
+                .Include(item => item.User)
+                .FirstOrDefaultAsync(cancellationToken) ?? throw new KeyNotFoundException();
 
-            var userResult = await dbContext.Users.Where(item => patientResult.UserId == item.Id).FirstOrDefaultAsync(cancellationToken);
-            return new (new GetPatientByIdResponse(patientResult.FullName, userResult.Address));
+            var userResult = await dbContext.Users
+                .Where(item => patientResult.User.Id == item.Id)
+                .FirstOrDefaultAsync(cancellationToken) ?? throw new KeyNotFoundException();
+
+            return new(new GetPatientByIdResponse(userResult.FullName, userResult.Address));
         }
     }
 }

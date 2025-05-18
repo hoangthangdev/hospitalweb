@@ -19,5 +19,9 @@ namespace BuildingCore.Data.Model
         public Gender Gender { get; set; }
         [Required]
         public string Address { get; set; }
+
+        [Required]
+        [MaxLength(100)]
+        public string FullName { get; set; } = null!;
     }
 }

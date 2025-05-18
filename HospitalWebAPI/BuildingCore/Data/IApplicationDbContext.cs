@@ -6,7 +6,7 @@ public interface IApplicationDbContext
 {
     DbSet<CustomerModel> Customers { get; }
     DbSet<User> Users { get; }
-    DbSet<Doctor> Doctors { get; }
-    DbSet<Patient> Patients { get; }
+    DbSet<DoctorInfo> Doctors { get; }
+    DbSet<PatientInfo> Patients { get; }
     Task<int> SaveChangesAsync(CancellationToken cancellationToken);
 }

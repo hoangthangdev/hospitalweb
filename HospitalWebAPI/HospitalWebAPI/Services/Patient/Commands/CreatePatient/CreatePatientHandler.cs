@@ -15,9 +15,8 @@ public class CreatePatientHandler(IApplicationDbContext dbContext) : ICommandHan
             Address = request.createPatientRequest.Address,
         };
 
-        var newPatient = new BuildingCore.Data.Model.Patient() 
+        var newPatient = new BuildingCore.Data.Model.PatientInfo() 
         {
-            FullName = request.createPatientRequest.name,
             User = newUser,
         };
 
