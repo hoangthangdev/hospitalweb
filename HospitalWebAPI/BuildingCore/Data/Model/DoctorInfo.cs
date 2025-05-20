@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BuildingCore.Data.Model;
 
-public class DoctorInfo : IdentityUser<int>
+public class DoctorInfo
 {
     [MaxLength(100)]
     [Required]

@@ -21,7 +21,7 @@ namespace HospitalWebAPI.Services.Patient.Queries.GetPatientById
                 .Where(item => patientResult.User.Id == item.Id)
                 .FirstOrDefaultAsync(cancellationToken) ?? throw new KeyNotFoundException();
 
-            return new(new GetPatientByIdResponse(userResult.FullName, userResult.Address));
+            return new(new GetPatientByIdResponse(userResult.UserName, userResult.Address));
         }
     }
 }

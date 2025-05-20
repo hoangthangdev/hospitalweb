@@ -85,6 +85,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.MapIdentityApi<User>();
 app.MapControllers();
 app.UseHealthChecks("/health",
     new HealthCheckOptions

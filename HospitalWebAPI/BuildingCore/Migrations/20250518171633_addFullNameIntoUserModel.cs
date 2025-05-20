@@ -276,6 +276,15 @@ namespace BuildingCore.Migrations
                 name: "IX_Patients_UserId",
                 table: "Patients",
                 column: "UserId");
+
+            migrationBuilder.InsertData(
+                table: "AspNetRoles",
+                columns: ["Id", "ConcurrencyStamp", "Name", "NormalizedName"],
+                values: new object[,]
+                {
+                    { 1, "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6", "Doctor", "DOCTOR" },
+                    { 2, "q1r2s3t4-u5v6-w7x8-y9z0-a1b2c3d4e5f6", "Patient", "PATIENT" }
+                });
         }
 
         /// <inheritdoc />
