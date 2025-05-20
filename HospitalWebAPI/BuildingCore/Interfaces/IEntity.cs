@@ -2,9 +2,9 @@
 {
     public class IEntity
     {
-        public long Id { get; set; }
+        public required string Id { get; set; }
         public DateTimeOffset? CreatedTime { get; set; }
         public DateTimeOffset? ModifyTime { get; set; }
-        public byte[] Version { get; set; }
+        public required byte[] Version { get; set; }
     }
 }

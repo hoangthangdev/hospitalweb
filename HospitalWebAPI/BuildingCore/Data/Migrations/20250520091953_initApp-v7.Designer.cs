@@ -4,6 +4,7 @@ using BuildingCore.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BuildingCore.data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250520091953_initApp-v7")]
+    partial class initAppv7
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -31,6 +34,7 @@ namespace BuildingCore.data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Address")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Age")
@@ -48,12 +52,14 @@ namespace BuildingCore.data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("FullName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Gender")
                         .HasColumnType("int");
 
                     b.Property<string>("Image")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -111,6 +117,7 @@ namespace BuildingCore.data.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("SpecialtyId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("UserId")
@@ -122,7 +129,7 @@ namespace BuildingCore.data.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("BuildingCore.Data.IApplicationDbContext.Employees");
+                    b.ToTable("Employees");
                 });
 
             modelBuilder.Entity("BuildingCore.Data.Model.Patient", b =>
@@ -138,7 +145,7 @@ namespace BuildingCore.data.Migrations
 
                     b.HasKey("PatientId");
 
-                    b.ToTable("BuildingCore.Data.IApplicationDbContext.Patients");
+                    b.ToTable("Patients");
                 });
 
             modelBuilder.Entity("BuildingCore.Data.Model.Specialties", b =>
@@ -310,7 +317,9 @@ namespace BuildingCore.data.Migrations
                 {
                     b.HasOne("BuildingCore.Data.Model.Specialties", "Specialty")
                         .WithMany()
-                        .HasForeignKey("SpecialtyId");
+                        .HasForeignKey("SpecialtyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("BuildingCore.Data.Identity.ApplicationUser", "User")
                         .WithMany()

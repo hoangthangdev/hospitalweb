@@ -15,7 +15,8 @@ namespace BuildingCore.Data
         private IDbContextTransaction? _currentTransaction;
         private readonly ClaimsPrincipal claimsPrincipal;
 
-        public DbSet<CustomerModel> Customers { get; set; }
+        DbSet<Employee> IApplicationDbContext.Employees { get; set; }
+        DbSet<Patient> IApplicationDbContext.Patients { get; set; }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options, ClaimsPrincipal claimsPrincipal)
             : base(options)
@@ -32,13 +33,19 @@ namespace BuildingCore.Data
 
         public IDbContextTransaction? GetCurrentTransaction() => _currentTransaction;
 
-        public async Task<int> SaveChangesAsync(CancellationToken cancellationToken)
+        async Task<int> IApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken)
         {
             BeforeSaveChanges();
             return await base.SaveChangesAsync(cancellationToken);
         }
 
-        public async Task BeginTranSactionAsync()
+        async Task<int> IUnitOfWork.SaveChangesAsync(CancellationToken cancellationToken)
+        {
+            BeforeSaveChanges();
+            return await base.SaveChangesAsync(cancellationToken);
+        }
+
+        async Task IUnitOfWork.BeginTranSactionAsync()
         {
             if (_currentTransaction == null)
             {
@@ -46,7 +53,7 @@ namespace BuildingCore.Data
             }
         }
 
-        public async Task CommitTransactionAsync()
+        async Task IUnitOfWork.CommitTransactionAsync()
         {
             if (_currentTransaction is null)
             {
@@ -60,7 +67,7 @@ namespace BuildingCore.Data
             }
             catch
             {
-                RollBack();
+                ((IUnitOfWork)this).RollBack();
                 throw;
             }
             finally
@@ -73,7 +80,7 @@ namespace BuildingCore.Data
             }
         }
 
-        public void RollBack()
+        void IUnitOfWork.RollBack()
         {
             try
             {
