@@ -4,6 +4,7 @@ using BuildingCore.Extentions;
 using BuildingCore.Interfaces;
 using BuildingCore.Services;
 using HealthChecks.UI.Client;
+using HospitalWebAPI.Apis;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
@@ -44,7 +45,7 @@ internal class Program
                 ValidateIssuerSigningKey = true,
                 ValidIssuer = builder.Configuration["Jwt:Issuer"],
                 ValidAudience = builder.Configuration["Jwt:Audience"],
-                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration?["Jwt:Key"] ?? string.Empty))
             };
         });
         builder.Services.AddDbContext<IApplicationDbContext, ApplicationDbContext>(options =>
@@ -59,21 +60,20 @@ internal class Program
         string? connectionString = builder.Configuration.GetConnectionString("Database");
         builder.Services.AddHealthChecks()
             .AddSqlServer(
-                connectionString: connectionString,
+                connectionString: connectionString ?? string.Empty,
                 name: "Database",
                 failureStatus: HealthStatus.Unhealthy);
         builder.Services.AddHttpContextAccessor();
         builder.Services.AddTransient(s => s.GetRequiredService<IHttpContextAccessor>().HttpContext?.User ?? new ClaimsPrincipal());
         builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
         builder.Services.AddTransient<IEmailSender<ApplicationUser>, SmtpEmailSender>();
-
         var app = builder.Build();
-
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
             app.UseSwaggerUI();
         }
+
         app.UseExceptionHandler(_ => { });
         app.UseHttpsRedirection();
         app.MapIdentityApi<ApplicationUser>();
@@ -85,6 +85,8 @@ internal class Program
             {
                 ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
             });
+        app.UseAuthEndPoints();
+
         app.Run();
     }
 }

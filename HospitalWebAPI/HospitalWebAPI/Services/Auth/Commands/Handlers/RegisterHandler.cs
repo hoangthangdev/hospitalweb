@@ -1,30 +1,21 @@
 ﻿using BuildingCore.CQRS;
-using BuildingCore.Interfaces;
+using BuildingCore.Data;
+using BuildingCore.Data.Model;
 using HospitalWebAPI.Services.Auth.Commands.Requests;
 using HospitalWebAPI.Services.Auth.Commands.Responses;
+using static BuildingCore.Common.Constants;
 
 namespace HospitalWebAPI.Services.Auth.Commands.Handlers
 {
-    public class RegisterHandler : ICommandHandler<RegisterCommand, RegisterResponse>
+    public class RegisterHandler(UserManager<ApplicationUser> userManager,
+                    IEmailSender<ApplicationUser> emailSender,
+                    IHttpContextAccessor httpContextAccessor,
+                    IApplicationDbContext context) : ICommandHandler<RegisterCommand, RegisterResponse>
     {
-        private readonly SignInManager<ApplicationUser> _signInManager;
-        private readonly UserManager<ApplicationUser> _userManager;
-        private readonly IJwtTokenGenerator _jwtTokenGenerator;
-        private readonly IEmailSender<ApplicationUser> _emailSender;
-        private readonly IHttpContextAccessor _httpContextAccessor;
-
-        public RegisterHandler(SignInManager<ApplicationUser> signInManager,
-                        UserManager<ApplicationUser> userManager,
-                        IJwtTokenGenerator jwtTokenGenerator,
-                        IEmailSender<ApplicationUser> emailSender,
-                        IHttpContextAccessor httpContextAccessor)
-        {
-            _signInManager = signInManager;
-            _userManager = userManager;
-            _jwtTokenGenerator = jwtTokenGenerator;
-            _emailSender = emailSender;
-            _httpContextAccessor = httpContextAccessor;
-        }
+        private readonly UserManager<ApplicationUser> _userManager = userManager;
+        private readonly IEmailSender<ApplicationUser> _emailSender = emailSender;
+        private readonly IHttpContextAccessor _httpContextAccessor = httpContextAccessor;
+        private readonly IApplicationDbContext _context = context;
 
         public async Task<RegisterResponse> Handle(RegisterCommand request, CancellationToken cancellationToken)
         {
@@ -36,6 +27,14 @@ namespace HospitalWebAPI.Services.Auth.Commands.Handlers
             var result = await _userManager.CreateAsync(user, request.Password);
             if (result.Succeeded)
             {
+                await _userManager.AddToRoleAsync(user, RoleConstants.Doctor);
+                var employee = new Employee
+                {
+                    DoctorId = user.Id,
+                };
+                _context.Employees.Add(employee);
+                await _context.SaveChangesAsync(cancellationToken);
+
                 var tokenEmail = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                 // Use UriHelper to generate the confirmation link  
                 var requestUrl = _httpContextAccessor.HttpContext?.Request;
@@ -43,11 +42,11 @@ namespace HospitalWebAPI.Services.Auth.Commands.Handlers
                 var token = Uri.EscapeDataString(tokenEmail);
 
                 var queryParameters = new List<KeyValuePair<string, string?>>
-                                         {
-                                             new KeyValuePair<string, string?>("userId", userId),
-                                             new KeyValuePair<string, string?>("token", token)
-                                         };
-                var confirmationLink = Microsoft.AspNetCore.Http.Extensions.UriHelper.BuildAbsolute(requestUrl?.Scheme,
+                                        {
+                                            new KeyValuePair<string, string?>("userId", userId),
+                                            new KeyValuePair<string, string?>("token", token)
+                                        };
+                var confirmationLink = Microsoft.AspNetCore.Http.Extensions.UriHelper.BuildAbsolute(requestUrl?.Scheme ?? string.Empty,
                                                                                                     requestUrl.Host,
                                                                                                     requestUrl.PathBase,
                                                                                                     "/Api/Auth/ConfirmEmail",

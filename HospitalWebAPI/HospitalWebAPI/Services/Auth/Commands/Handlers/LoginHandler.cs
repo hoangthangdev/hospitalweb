@@ -33,7 +33,7 @@ namespace HospitalWebAPI.Services.Auth.Commands.Handlers
                 await _userManager.SetAuthenticationTokenAsync(user, "app", "RefreshToken", refreshToken);
                 return new LoginResponse
                 {
-                    Email = user.Email,
+                    Email = user.Email ?? string.Empty,
                     Token = token,
                     RefreshToken = refreshToken
                 };
